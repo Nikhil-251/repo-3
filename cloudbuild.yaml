@@ -5,7 +5,7 @@ steps:
   - functions
   - deploy
   - function_cicd
-  - --region=us-central1
+  - --region=global
   - --source=.
   - --trigger-http
   - --runtime=python310
