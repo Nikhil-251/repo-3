@@ -13,4 +13,4 @@ def function_cicd(request):
     elif request_json and 'message' in request_json:
         return request_json['message']
     else:
-        return f'Function - 1 with V1.0 with CI/CD Pipeline'
+        return f'Function - 1 with V2.0 with CI/CD Pipeline'
