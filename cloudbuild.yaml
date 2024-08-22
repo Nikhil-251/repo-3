@@ -10,6 +10,5 @@ steps:
   - --trigger-http
   - --runtime=python310
   - --allow-unauthenticated
-  - --service-account=gcp-devops-433010@appspot.gserviceaccount.com
 options:
   logging : CLOUD_LOGGING_ONLY
